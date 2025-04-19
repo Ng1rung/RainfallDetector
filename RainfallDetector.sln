@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35506.116 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainfallDetector", "RainfallDetector\RainfallDetector.csproj", "{BF3101F1-C272-43ED-B4AD-98171ACA1D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainfallDetectorTest", "RainfallDetectorTest\RainfallDetectorTest.csproj", "{41224104-AC46-4860-A93A-06F7C0350760}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{BF3101F1-C272-43ED-B4AD-98171ACA1D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF3101F1-C272-43ED-B4AD-98171ACA1D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF3101F1-C272-43ED-B4AD-98171ACA1D8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41224104-AC46-4860-A93A-06F7C0350760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41224104-AC46-4860-A93A-06F7C0350760}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41224104-AC46-4860-A93A-06F7C0350760}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41224104-AC46-4860-A93A-06F7C0350760}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
