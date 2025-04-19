@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CsvHelper.Configuration.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,13 @@ namespace RainfallDetector.Models
 {
     public class Devices
     {
+        [Index(0)]
         public int DeviceID { get; set; }
-        public string DeviceName { get; set; }
-        public string Location { get; set; }
+
+        [Index(1)]
+        public string? DeviceName { get; set; }
+
+        [Index(2)]
+        public string? Location { get; set; }
     }
 }
