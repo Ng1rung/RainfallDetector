@@ -1,0 +1,97 @@
+Dear Nabin,
+
+ 
+
+ 
+
+Please see the details of the code challenge for the 613325 - Applications Developer position below.
+
+ 
+
+Your solution for the code challenge must be received within 4 hours of the timestamp on my outgoing email.  Please “reply all” to ensure all panel members receive your solution.
+
+ 
+
+Submission checklist
+
+ 
+
+    Submit the source code for your application in their native *.cs format, archived into a .zip format. Do not submit compiled files or executables.
+    List of tools/resources used included in the email
+    All commits completed and pushed to git repository origin
+    Link to git repository included in email. Do not submit compiled files or executables.
+
+ 
+
+ 
+
+Code Challenge
+
+ 
+
+Please read carefully. The primary issue we receive with submissions is candidates missing requirements.
+
+ 
+
+Time available: 4 hours maximum.
+
+ 
+
+The Problem: 
+
+ 
+
+Fuzion Inc. Manages a flood detection programme. They have devices in the field that take rainfall readings which are sent to main office via ftp as a .csv file.
+
+ 
+
+They would like a simple console UI that reads in the rainfall readings from a folder and shows the average rainfall over the last 4 hours for each device, whether it is green, amber or red, and whether the average rainfall trend is increasing or decreasing. The thresholds being:
+
+ 
+
+Green:  average rainfall for last 4 hrs < 10mm
+
+Amber:  average rainfall for last 4 hrs < 15mm
+
+Red:  average rainfall for last 4 hrs >= 15mm or any reading in the last 4 hrs > 30mm
+
+ 
+
+Data:
+
+ 
+
+You are provided with:
+
+ 
+
+    The list of devices (csv)
+    The last 2 sets of data files received (csv)
+
+ 
+
+For the purpose of development & testing assume that the last timestamp across all data files is the current time, so if the last time in all data files is 3pm, assume the current time is 3pm.
+
+ 
+
+Questions
+
+ 
+
+The business owner requesting this application is very busy so has asked you to include in a readme.txt file any assumptions you have made in developing the application.
+
+ 
+
+Solution requirements
+
+ 
+
+The solution should be written in C# with a console front end. The solution should use no external libraries. There is one exception - you may use your choice of CSV reader. There are a few available. Our suggestion is https://joshclose.github.io/CsvHelper/.
+
+ 
+
+It is your choice how simple or complex you make it including if and how you choose to store data.
+
+ 
+
+If you have time, you are welcome to provide additional features, however, we are looking for a solution that correctly solves the problem above and shows evidence of good coding practices. e.g. unit testing, SOLID, clean code and design over complexity of what the application can do.
